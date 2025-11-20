@@ -1,7 +1,5 @@
-# Exclure tous les fichiers dans les dossiers Datasets
-Datasets/**/*
+# Ignore everything inside Datasets
+Datasets/**
 
-# Exclure les dossiers checkpoints (à la racine et dans les sous-dossiers)
-checkpoints/
-**/checkpoints/
-
+# But keep .gitkeep files so we can track empty folders
+!Datasets/**/.gitkeep
