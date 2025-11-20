@@ -1,5 +1,9 @@
-# Ignore everything inside Datasets
-Datasets/**
+# Ignorer toutes les images dans Datasets (tous sous-dossiers)
+Datasets/**/*.png
+Datasets/**/*.jpg
+Datasets/**/*.jpeg
+Datasets/**/*.gif
+Datasets/**/*.bmp
 
-# But keep .gitkeep files so we can track empty folders
-!Datasets/**/.gitkeep
+# Garder les .gitkeep pour conserver les dossiers vides
+!**/.gitkeep
