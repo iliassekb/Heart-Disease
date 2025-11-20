@@ -1,0 +1,7 @@
+# Exclure tous les fichiers dans les dossiers Datasets
+Datasets/**/*
+
+# Exclure les dossiers checkpoints (à la racine et dans les sous-dossiers)
+checkpoints/
+**/checkpoints/
+
